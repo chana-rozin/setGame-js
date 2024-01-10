@@ -1,0 +1,29 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mainContent{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+}
+#gamesMenue{
+display: grid;
+grid-template-columns: repeat(2, 50%);
+grid-template-rows: repeat(2, 50%);
+gap: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+
+
+.gameImg:hover{
+transform: scale(106%);
+transition: 0.5s;
+}

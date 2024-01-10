@@ -1,0 +1,16 @@
+#board{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 75%;
+}
+
+.playCard{
+    width: 100%;
+}
+
+/* #board
+{
+    cursor: url('../img/mouse-clicker.png'), zoom-in, auto;
+} */
